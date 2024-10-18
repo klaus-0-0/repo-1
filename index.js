@@ -7,10 +7,6 @@ app.get("/", (req, res) => {
     res.send("hllo");
 })
 
-app.get("/ok", (req, res) => {
-  res.send("kokoko");
-})
-
 // app.listen(process.env.PORT, () => {
 //     console.log('app listning on ', '${PORT}')
 // })
